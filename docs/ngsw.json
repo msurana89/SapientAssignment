@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1597680764611,
+  "timestamp": 1597681302438,
   "index": "https://msurana89.github.io/SapientAssignment/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://msurana89.github.io/SapientAssignment/favicon.ico",
         "https://msurana89.github.io/SapientAssignment/index.html",
-        "https://msurana89.github.io/SapientAssignment/main.8d55b090b163870bc90e.js",
+        "https://msurana89.github.io/SapientAssignment/main.24e4103207d48de9c085.js",
         "https://msurana89.github.io/SapientAssignment/manifest.webmanifest",
         "https://msurana89.github.io/SapientAssignment/polyfills.b871379e2604dedcbac5.js",
         "https://msurana89.github.io/SapientAssignment/runtime.625e0455539c80367807.js",
@@ -52,8 +52,8 @@
     "https://msurana89.github.io/SapientAssignment/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://msurana89.github.io/SapientAssignment/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://msurana89.github.io/SapientAssignment/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://msurana89.github.io/SapientAssignment/index.html": "d62d6e7032d250e32ea8f4fe68aaf13374f83891",
-    "https://msurana89.github.io/SapientAssignment/main.8d55b090b163870bc90e.js": "512677871090fd4d3f5da0c8e568e94df662afed",
+    "https://msurana89.github.io/SapientAssignment/index.html": "7576fa3f5c03515462398f7fc93e6caf7315d589",
+    "https://msurana89.github.io/SapientAssignment/main.24e4103207d48de9c085.js": "8c0bd15dce84637f9ebbfdbbf33222cf07ee2081",
     "https://msurana89.github.io/SapientAssignment/manifest.webmanifest": "b6a796af4583c1f9910b9f4c9faf04057b423e09",
     "https://msurana89.github.io/SapientAssignment/polyfills.b871379e2604dedcbac5.js": "b20f2372972e709b9648cd1bffbb6616dc17273d",
     "https://msurana89.github.io/SapientAssignment/runtime.625e0455539c80367807.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
