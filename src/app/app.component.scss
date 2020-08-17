@@ -1,0 +1,50 @@
+.container-fluid {
+  max-width: 1440px;
+  background-color: aliceblue;
+
+  .filters {
+
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+    align-content: center;
+
+    .filter-header {
+      text-align: center;
+      margin: 10px;
+      border-bottom: 3px solid aliceblue;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+      position: relative;
+      display: -ms-inline-flexbox;
+      display: contents;
+      vertical-align: middle;
+
+      .btn {
+        background-color: lightgreen;
+        border: none;
+        outline: none !important;
+
+        &:focus {
+          background-color: limegreen;
+          box-shadow: none;
+          color: white;
+        }
+      }
+    }
+
+
+  }
+
+  .footer-container {
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+    max-width: 680px;
+    padding: 0 15px;
+    text-align: center;
+    font-size: x-large;
+  }
+}

@@ -1,0 +1,65 @@
+<div class="container-fluid">
+  <div>
+    <header>
+      <h1> SpaceX Launch Programs </h1>
+    </header>
+    <div class="row rounded">
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class='filters'>
+          <header>
+            <h5>Filters</h5>
+          </header>
+          <div class='filter-header'>
+            Launch Year
+          </div>
+          <div class="row">
+            <div class="col-6 mr-auto text-center my-2" *ngFor="let i of yearArray(15, 2006)">
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-primary text-dark active" value='i'
+                  (click)='selectYear(i)'>{{i}}</button>
+              </div>
+            </div>
+          </div>
+          <div class='filter-header'>
+            Successful Launch
+          </div>
+          <div class="row">
+            <div class="btn-group" role="group">
+              <div class="col-6 mr-auto text-center my-2">
+                <button type="button" class="btn btn-primary text-dark" (click)='selectSuccessfulLaunch(true)'
+                  value='true'>True</button>
+              </div>
+              <div class="col-6 mr-auto text-center my-2">
+                <button type="button" class="btn btn-primary text-dark" (click)='selectSuccessfulLaunch(false)'
+                  value='false'>False</button>
+              </div>
+            </div>
+          </div>
+          <div class='filter-header'>
+            Successful Landing
+          </div>
+          <div class="row">
+            <div class="btn-group" role="group">
+              <div class="col-6 mr-auto text-center my-2">
+                <button type="button" class="btn btn-primary text-dark" (click)='selectSuccessfulLand(true)'
+                  value='true'>True</button>
+              </div>
+              <div class="col-6 mr-auto text-center my-2">
+                <button type="button" class="btn btn-primary text-dark" (click)='selectSuccessfulLand(false)'
+                  value='false'>False</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-9">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <!-- <footer class='footer'> -->
+    <div class="footer-container m-4">
+      <strong>Developed By: </strong><em>{{developer}}</em>
+    </div>
+    <!-- </footer> -->
+  </div>
+</div>

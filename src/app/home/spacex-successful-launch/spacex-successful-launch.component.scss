@@ -1,0 +1,43 @@
+.launch-details {
+    height: 100%;
+    margin: 10px;
+  
+    .card {
+      display: inline-block;
+      align-items: center;
+      color: blue;
+      padding: 16px;
+  
+      .card-img-top {
+        background-color: aliceblue;
+        padding: 5px;
+      }
+  
+      .card-body {
+        padding: 1rem 0;
+        font-size: 12px;
+  
+        .card-title {
+          font-size: 16px;
+          letter-spacing: -1px;
+        }
+  
+        .card-text {
+          .section-title {
+            color: black;
+            font-weight: bold;
+            width: 50%;
+          }
+  
+          td {
+            margin: 2px;
+          }
+  
+          ul {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  

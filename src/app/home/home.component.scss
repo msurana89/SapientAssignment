@@ -1,0 +1,78 @@
+// .filters {
+
+//   margin: 10px;
+//   background-color: white;
+//   padding: 5px;
+//   align-content: center;
+
+//   .filter-header {
+//     text-align: center;
+//     margin: 10px;
+//     border-bottom: 3px solid aliceblue;
+//   }
+
+//   .btn-group,
+//   .btn-group-vertical {
+//     position: relative;
+//     display: -ms-inline-flexbox;
+//     display: contents;
+//     vertical-align: middle;
+
+//     .btn {
+//       background-color: lightgreen;
+//       border: none;
+//       outline: none !important;
+
+//       &:focus {
+//         background-color: limegreen;
+//         box-shadow: none;
+//         color: white;
+//       }
+//     }
+//   }
+
+
+// }
+
+.launch-details {
+  height: 100%;
+  margin: 10px;
+
+  .card {
+    display: inline-block;
+    align-items: center;
+    color: blue;
+    padding: 16px;
+
+    .card-img-top {
+      background-color: aliceblue;
+      padding: 5px;
+    }
+
+    .card-body {
+      padding: 1rem 0;
+      font-size: 12px;
+
+      .card-title {
+        font-size: 16px;
+        letter-spacing: -1px;
+      }
+
+      .card-text {
+        .section-title {
+          color: black;
+          font-weight: bold;
+          width: 50%;
+        }
+
+        td {
+          margin: 2px;
+        }
+
+        ul {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

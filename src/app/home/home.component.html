@@ -1,0 +1,36 @@
+  <div class="row launch-details rounded" *ngIf="showFlight == 'home'">
+    <div class='col-sm-12 col-md-6 col-lg-3 my-2' *ngFor='let flight of flightDetails'>
+      <div class="card">
+        <img class="card-img-top" src="{{flight.links.mission_patch}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{flight.mission_name}} #{{flight.flight_number}}</h5>
+          <div class="card-text">
+            <table>
+              <tr>
+                <td class='section-title'>Mission Ids:</td>
+              </tr>
+              <tr>
+                <td>
+                  <ul *ngFor='let id of flight.mission_id'>
+                    <li>{{id}}</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class='section-title'>Launch Year:</td>
+                <td>{{flight.launch_year}}</td>
+              </tr>
+              <tr>
+                <td class='section-title'>Successful Launch:</td>
+                <td>{{flight.launch_success}}</td>
+              </tr>
+              <tr>
+                <td class='section-title'>Successful Landing:</td>
+                <td>{{flight.rocket.first_stage.cores[0].land_success}}</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
