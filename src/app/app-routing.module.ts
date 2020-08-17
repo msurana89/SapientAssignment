@@ -6,8 +6,7 @@ import { SpacexSuccessfulLaunchComponent } from './home/spacex-successful-launch
 import { SpacexSuccessfulLandingComponent } from './home/spacex-successful-landing/spacex-successful-landing.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent},
+  { path: '', component: HomeComponent},
   { path: 'launch-year/:year', component: SpacexLaunchYearComponent },
   { path: 'launch-successful/:success', component: SpacexSuccessfulLaunchComponent },
   { path: 'landing-successful/:success', component: SpacexSuccessfulLandingComponent },
